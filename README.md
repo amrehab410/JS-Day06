@@ -1,1 +1,1 @@
-"# JS-Day06" 
+"JS Day06 Tasks" 
