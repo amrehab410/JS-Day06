@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" /><br />
+      <p class="errors" id="nameError">
+        This name needs to be at least 3 characters long
+      </p>
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age" /><br />
+      <p class="errors" id="ageError">The age needs to be at least 18</p>
+
+      <h4>Select your gender:</h4>
+      <input type="radio" name="gender" id="male" />
+      <label for="male"><img src="1.jpg" alt="" /></label>
+      <input type="radio" name="gender" id="female" />
+      <label for="female"><img src="2.jpg" alt="" /></label><br /><br />
+      <p class="errors" id="genderError">You have to choose a gender</p>
+
+      <h4 style="display: inline">Select your favourite color:</h4>
+      <select name="color" id="color">
+        <option value=""></option>
+        <option value="blue">Blue</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option></select
+      ><br /><br />
+      <p class="errors" id="colorError">You have to choose a color</p>
+
+      <button onclick="register()">Register</button>
+      <p class="errors" id="submitError">
+        Some fields are missing or need changing
+      </p>
+    </div>
+
+    <script src="task.js"></script>
+  </body>
+</html>

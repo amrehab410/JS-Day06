@@ -1,0 +1,42 @@
+input[type='text'] {
+  height: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  outline: 0;
+}
+input[type='number'] {
+  height: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  outline: 0;
+}
+button {
+  border-radius: 5px;
+  height: 50px;
+  width: 100px;
+  background-color: rgb(113, 154, 113);
+  color: white;
+}
+select {
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+}
+div {
+  background-color: blueviolet;
+  width: 600px;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  margin: auto;
+  box-shadow: 5px 5px black;
+}
+body {
+  background-color: rgb(113, 154, 113);
+}
+.errors {
+  display: none;
+  color: aqua;
+  font-style: italic;
+  font-weight: bold;
+}
