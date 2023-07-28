@@ -1,0 +1,16 @@
+td,
+tr {
+  border: 2px solid black;
+}
+table {
+  border: 2px solid black;
+  background-color: antiquewhite;
+}
+button {
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: gray;
+  margin: 10px;
+  color: white;
+}
